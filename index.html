@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Scroll Animation</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+
+  <div class="header">
+    <div class="logo">
+      <img src="assets/logo2.png" alt="Logo" />
+    </div>
+    <nav class="navbar">
+      <a href="#">Products</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </div>
+
+  <div class="box yellow show" style="padding: 0;">
+    <!-- <div class="First">
+      <img src="../assets/bhajishev.png"  alt="bhajishev">
+      <img src="../assets/farsan.png"   alt="Farsan">
+      <img class="center" src="../assets/image.jpg"  alt="pavitra">
+      <img src="../assets/mixture.png"  alt="mixture">
+      <img src="../assets/sweetmixture.png"  alt="sweetmixture">
+    </div> -->
+  </div>
+
+  <!-- Animated Sections -->
+  <div class="box red animated">
+    <div class="information">
+      <h2>CRISPY BHI.<br> SPICY BHI.<br> 
+        <span>FEEL THE ORIGINAL</span><br> TASTE.
+      </h2>
+    </div>
+    <img src="assets/faraliChivda (1).png" alt="Farali Chivda">
+  </div>
+
+  <div class="box yellow animated">
+    <div class="information">
+      <h2>CRISPY BHI.<br> SPICY BHI.<br> <span>FEEL THE ORIGINAL</span><br> SPECIAL FARSAN TASTE.</h2>
+    </div>
+    <img src="assets/farsan.png" alt="Farsan">
+  </div>
+
+  <div class="box green animated">
+    <div class="information">
+      <h2>CRISPY BHI.<br> SPICY BHI.<br> <span>FEEL THE ORIGINAL</span><br> SPECIAL MIXTURE.</h2>
+    </div>
+    <img src="assets/mixture.png" alt="Mixture">
+  </div>
+
+  <div class="box blue animated">
+    <div class="information">
+      <h2>CRISPY BHI.<br> SPICY BHI.<br> <span>FEEL THE ORIGINAL</span><br> SPECIAL BHAJI SHEV.</h2>
+    </div>
+    <img src="assets/bhajishev.png" alt="Bhaji Shev Again">
+  </div>
+
+  <div class="box red animated">
+    <div class="information">
+      <h2>CRISPY BHI.<br> SPICY BHI.<br> <span>FEEL THE ORIGINAL</span><br> SPECIAL FARAL CHIVDA.</h2>
+    </div>
+    <img src="assets/faraliChivda.png" alt="Farali Chivda">
+  </div>
+  <div class="box blue animated">
+    <div class="information">
+      <h2>CRISPY BHI.<br> SPICY BHI.<br> <span>FEEL THE ORIGINAL</span><br> SWEET MIXTURE FLAVOR.</h2>
+    </div>
+    <img src="assets/sweetmixture.png" alt="Sweet Mixture">
+  </div>
+
+  <div class="headers">ABOUT US
+    <hr>
+  </div>
+    <div class="containers">
+
+        <h2>WE'RE DIFFERENT THAN THE REST</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Et ut dolor excepturi laborum expedita, facere est cum? Suscipit error doloribus tenetur cumque pariatur excepturi 
+          sapiente quaerat possimus voluptatibus, accusamus similique?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ut dolor excepturi laborum expedita, facere est cum?
+          Suscipit error doloribus tenetur cumque pariatur excepturi sapiente quaerat possimus voluptatibus, accusamus similique?
+        </p>
+  
+    </div>
+
+  <div class="contact">
+    <h2>Find Us</h2>  <!-- Heading on top -->
+      <div class="contact-container">
+        <div class="map">
+            <iframe 
+            
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.5360514255326!2d73.9109075026585!3d18.60516006614947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c69543c94c43%3A0xb8fad58419f97cd8!2sShree%20Nidhi!5e1!3m2!1sen!2sin!4v1743165851536!5m2!1sen!2sin"
+                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+        </div>
+        <div class="contact-form">
+          <h3>Contact & Enquiry</h3>
+          <form action="" method="POST">
+              <input type="text" name="name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your Email" required>
+              <input type="text" name="subject" placeholder="Subject" required>
+              <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+              <button type="submit">Send Message</button>
+          </form>
+    </div>
+    </div>
+</div>
+
+<!-- Serivice section-->
+<div class="Service-container">
+  <div class="heading">
+    <h1>Service Section</h1>
+  </div>
+
+  <!-- Cards Scroll Wrapper -->
+  <div class="scroll-wrapper">
+    <div class="scroll-container" id="cardContainer">
+      <!-- Cards -->
+      <div class="card">
+        <img src="assets/faraliChivda.png" class="card-img-top" alt="1">
+        <div class="card-body">
+          <h5 class="card-title">Card 1</h5>
+          <p class="card-text">This is some card text for item 1.</p>
+          <!-- <a href="#" class="btn btn-primary">Go</a> -->
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="assets/faraliChivda.png" class="card-img-top" alt="2">
+        <div class="card-body">
+          <h5 class="card-title">Card 2</h5>
+          <p class="card-text">This is some card text for item 2.</p>
+          <!-- <a href="#" class="btn btn-primary">Go</a> -->
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="assets/faraliChivda.png" class="card-img-top" alt="3">
+        <div class="card-body">
+          <h5 class="card-title">Card 3</h5>
+          <p class="card-text">This is some card text for item 3.</p>
+          <a href="#" class="btn btn-primary">Go</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="assets/faraliChivda.png" class="card-img-top" alt="4">
+        <div class="card-body">
+          <h5 class="card-title">Card 4</h5>
+          <p class="card-text">This is some card text for item 4.</p>
+          <a href="#" class="btn btn-primary">Go</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="assets/faraliChivda.png" class="card-img-top" alt="5">
+        <div class="card-body">
+          <h5 class="card-title">Card 5</h5>
+          <p class="card-text">This is some card text for item 5.</p>
+          <a href="#" class="btn btn-primary">Go</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="assets/faraliChivda.png" class="card-img-top" alt="6">
+        <div class="card-body">
+          <h5 class="card-title">Card 6</h5>
+          <p class="card-text">This is some card text for item 6.</p>
+          <a href="#" class="btn btn-primary">Go</a>
+        </div>
+      </div>
+
+      <!-- Add more cards as needed -->
+    </div>
+  </div>
+
+  <!-- Scroll Buttons -->
+  <!-- <div class="scroll-btn-wrapper">
+    <button class="scroll-btn" onclick="scrollLeft()">❮</button>
+    <button class="scroll-btn" onclick="scrollRight()">❯</button>
+  </div> -->
+</div>
+
+<!---Footer Section-->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <h4>[Brand Name]</h4>
+        <p>Your trusted snack partner for all occasions! Enjoy the perfect crunch with every bite.</p>
+      </div>
+      <div class="footer-center">
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="#about-us">About Us</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#privacy">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-right">
+        <h5>Follow Us</h5>
+        <ul class="social-links">
+          <li><a href="#" target="_blank">Facebook</a></li>
+          <li><a href="#" target="_blank">Instagram</a></li>
+          <li><a href="#" target="_blank">Twitter</a></li>
+          <li><a href="#" target="_blank">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 [Brand Name]. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+<script>
+  const container = document.getElementById('cardContainer');
+
+  function scrollLeft() {
+    container.scrollLeft -= 300; // ✅ Use scrollLeft for precise control
+  }
+
+  function scrollRight() {
+    container.scrollLeft += 300;
+  }
+</script>
+
+</body>
+</html>
