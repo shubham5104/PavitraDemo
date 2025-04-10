@@ -247,6 +247,7 @@ hr {
   
   .contact {
     width: 100%;
+    
     padding: 5px 20px;
     background-color: #f8f8f8;
     text-align: center;
@@ -429,18 +430,33 @@ hr {
 }
 
 /* Wrapper for scrollable container */
+
 .scroll-wrapper {
-  width: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
+  white-space: nowrap;
 }
 
-/* Horizontal scroll layout */
 .scroll-container {
   display: flex;
-  gap: 15px;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  padding: 10px 0;
+  gap: 20px;
+}
+
+/* .card {
+  flex: 0 0 auto;
+  width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+} */
+.card img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.card-body {
+  padding: 15px;
 }
 
 .scroll-container::-webkit-scrollbar {
@@ -585,11 +601,11 @@ hr {
     text-align: center;
     margin-bottom: 10px;
   }
-.scroll-wrapper {
+/* .scroll-wrapper {
 overflow: hidden;
 position: relative;
 margin-top: 80px; 
-}
+} */
 
 
   .scroll-container {
